@@ -228,6 +228,7 @@
         font-weight: 600;
         line-height: 2.4rem; 
         text-transform: uppercase;
+        margin-bottom:0;
        
         
     }
@@ -238,10 +239,9 @@
         font-style: normal;
         font-weight: 400;
         padding-left: 30px;
+        margin-bottom:0;
     }
-    .table__input ~ p{
-        margin-bottom:0
-    }
+
     .table__input li{
         color: var(--text-color);
         text-align: justify;
