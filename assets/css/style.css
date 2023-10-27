@@ -239,6 +239,9 @@
         font-weight: 400;
         padding-left: 30px;
     }
+    .table__input ~ p{
+        margin-bottom:0
+    }
     .table__input li{
         color: var(--text-color);
         text-align: justify;
