@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --primary:linear-gradient(rgba(10, 119, 203, 1), rgba(73, 213, 223, 1), rgba(56, 64, 239, 1));
+    --secondary:linear-gradient(64deg, #0A77CB -10.72%, #49D5DF 116.25%);
+    --text-color:rgba(90, 90, 90, 1);
+    --text-font-family:sans-serif;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--text-font-family);
+    line-height: 2.3rem;
+  }
+  html {
+    font-size: 62.5%;
+    
+  }
+  body {
+    background-color: #E8FBFF !important;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .wrapper{
+    width: 100%;
+    max-width: 1110px;
+    margin: 100px 0;
+    
+  }
+  .wrapper-inner{
+    margin: 100px 0;
+  }
+  .header{
+    text-align: center;
+    margin-top: 70px;
+
+  }
+  .header__title svg{
+    position: relative;
+    left: -96px;
+    bottom: -15px;
+
+    
+  }
+  .header__subtitle{
+   font-size: 8rem;
+   background: linear-gradient(313deg, #0A77CB 28.02%, #49D5DF 92.73%, #3840EF 141.55%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   line-height: 8rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+  }
+  .header__subheading{
+   font-size: 3rem;
+   line-height: 3rem;
+   font-weight: 600;
+   background: var(--secondary);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   text-transform: uppercase;
+  }
+
+  .card-wrap{
+    display: flex;
+    align-items: center;
+    padding: 26px 30px;
+    border: 1px solid #fff;
+    border-radius: 99px;
+    background-color: #fff;
+    margin-bottom: 51px;
+    width: 100%;
+    
+  }
+
+  .card__number{
+    background: var(--primary);
+    font-size: 10rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 10rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    font-family: 'Lobster', sans-serif;
+  }
+
+  .card__number svg:nth-child(1){
+    height: 93px;
+    width: 117px;
+
+  }
+
+
+  .card__title{
+    background:  var(--secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem; 
+    text-transform: uppercase;
+  }
+  .card__paragraph{
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .card__text{
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0;
+  }
+  .card__list{
+    padding-left: 0;
+  }
+  .card__list li{
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.3rem;
+    margin-left: 30px;
+  }
+  .card__list-item[tabindex="4"]{
+    background: -webkit-linear-gradient(64deg, #0A77CB -10.72%, #49D5DF 116.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  .card__list-item::marker{
+   color: #0A77CB;
+  }
+
+  .card__list-item strong{
+    background: var(--secondary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .loan-bank__title{
+    text-align: center;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5rem; 
+    text-transform: uppercase;
+    background:  var(--secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 30px 0;
+    }
+    .loan-bank__logo{
+        width: 212px;
+        height: 242px;
+        margin-bottom: 30px;
+    }
+    .loan-bank__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+    }
+    .loan-bank__paragraph{
+        color: var(--text-color);
+        text-align: justify;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+    .loan-bank__table{
+        border-radius: 60px;
+        border: 1px dashed  #0A77CB;
+        background: #FFF;
+        padding: 40px 0;
+    }
+    .table__title{
+        background:  var(--secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.6rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.8rem; 
+        text-transform: uppercase;
+        margin: 50px 0;
+    }
+
+    .table__wrap{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px 0;
+        border-bottom: 1px dashed #0A77CB;
+
+        
+    }
+    .table__label{
+        display: flex;
+        justify-content: space-between;
+        color:  #00589D;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.4rem; 
+        text-transform: uppercase;
+       
+        
+    }
+    .table__input{
+        color: var(--text-color);
+        text-align: justify;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+    .table__input li{
+        color: var(--text-color);
+        text-align: justify;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 30px; 
+    }
+
+
+.real-estate__image{
+    width: 100%;
+    height: 690px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+.real-estate__paragraph{
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.real-estate__card-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    border: 1px dashed  #0A77CB;
+    background: #FFF;
+    min-height: 148px;
+}
+.real-estate__card-title{
+    background:  var(--secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.real-estate__card-description{
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.real-estate__map{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.real-estate__map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact{
+
+}
+.contact__wrap{
+   text-align: center;
+}
+.contact__title{
+    background:  var(--secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 600;
+}
+.contact__subtitle{
+    background:  var(--secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+    line-height: 9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact__subheading{
+    color:  #00589D;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem; 
+    text-transform: uppercase;
+}
+.contact__description{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.contact-form{
+    width: 55%;
+    height: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 30px 5px;
+    border-radius: 8px;
+}
+.contact-form input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgba(129, 129, 129, 0.30);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 10px;
+    margin: 10px 0;
+}
+.contact-form input[type="submit"]{
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), var(--5way1, #EF4E2F);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    color: #FFF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6rem;
+}
+.footer__wrap{
+    background-color: #00589D;
+    padding: 29px 0;
+}
+
+.footer__address{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.footer__phone{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+ }
+
+    @media only screen and (max-width:63.9375em){
+        .header__title svg {
+            width: 100%;
+            left: 0;
+            height: auto;
+}
+        .header__subtitle{
+            font-size: 4rem;
+            line-height: 5rem;
+        }
+        .card__number{
+            justify-content: center;
+        }
+        .card__number svg:nth-child(2){
+            display: none;
+        }
+        .card__title{
+            text-align: center;
+            font-size: 2.4rem;
+        }
+        .loan-bank__title{
+            font-size: 4rem;
+            text-align: center;
+        }
+        .table__label {
+            justify-content: flex-start;
+        }
+        .real-estate__card-wrap{
+            margin-bottom: 30px;
+        }
+        .real-estate__image {
+            width: 100%; 
+            height: 300px; 
+            background-size: cover;
+        }
+        .real-estate__map{  
+            margin-top: 70px;
+        }
+        .contact__title{
+            font-size: 2.4rem;
+            line-height: 3rem;
+            margin-bottom: 15px;
+        }
+        .contact__subtitle{
+            font-size: 4rem;
+            line-height: 4rem;
+            margin-bottom: 15px;
+        }
+        .contact-form{
+            width: 100%;
+        }
+        .footer__phone{
+            text-align: center;
+        }
+
+    }
